@@ -13,7 +13,7 @@ A ideia é criar um site e, posteriomente, uma API, completo onde os leitores po
     <li>Filtrar a busca por classificação indicativa, gênero e quadrinhos</li>
     <li>Descobrir novas histórias a serem exploradas</li>
     <li>Procurar novos livros de maneira divertida e secreta</li>
-<ul>
+</ul>
 
 ## Tecnologias
 <ul>
@@ -21,4 +21,4 @@ A ideia é criar um site e, posteriomente, uma API, completo onde os leitores po
     <li>CSS</li>
     <li>JavaScript</li>
     <li>Arquivo JSON</li>
-<ul>
+</ul>
