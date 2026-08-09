@@ -1,0 +1,605 @@
+[
+   {
+      "id": 1,
+      "titulo": "O Hobbit",
+      "subtitulo": "",
+      "isbn": "9788595084747",
+      "autor": "J. R. R. Tolkien",
+      "editora": "HarperCollins Brasil",
+      "anoPublicacao": 1937,
+      "generoPrincipal": "Fantasia",
+      "generosExtras": [
+         "Aventura",
+         "Clássico",
+         "Alta Fantasia"
+      ],
+      "sinopseCompleta": "Bilbo Bolseiro leva uma vida tranquila no Condado até receber a inesperada visita do mago Gandalf e de uma companhia de treze anões liderados por Thorin Escudo de Carvalho. Convidado a participar de uma jornada para recuperar um reino perdido e um tesouro guardado pelo dragão Smaug, Bilbo descobre um mundo repleto de perigos, criaturas fantásticas e desafios que colocam sua coragem à prova. Ao longo da viagem, ele amadurece, desenvolve habilidades que jamais imaginou possuir e encontra um misterioso anel que mudará para sempre o destino da Terra-média.",
+      "sinopseCurta": "Um hobbit pacato embarca em uma aventura inesperada para ajudar um grupo de anões a recuperar seu reino perdido.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Jovem Adulto"
+   },
+   {
+      "id": 2,
+      "titulo": "O Senhor dos Anéis",
+      "subtitulo": "A Sociedade do Anel",
+      "isbn": "9788595084754",
+      "autor": "J. R. R. Tolkien",
+      "editora": "HarperCollins Brasil",
+      "anoPublicacao": 1954,
+      "generoPrincipal": "Fantasia",
+      "generosExtras": [
+         "Aventura",
+         "Épico",
+         "Alta Fantasia"
+      ],
+      "sinopseCompleta": "Frodo Bolseiro herda um poderoso anel capaz de decidir o destino da Terra-média. Perseguido pelas forças do mal, ele parte em uma longa jornada acompanhado por aliados de diferentes povos. Unidos por um objetivo comum, eles enfrentam perigos, conflitos internos e desafios que colocam à prova amizade, esperança e coragem. A aventura marca o início de uma das histórias mais influentes da literatura fantástica.",
+      "sinopseCurta": "Um jovem hobbit precisa destruir um poderoso anel antes que ele caia nas mãos do mal.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Jovem Adulto"
+   },
+   {
+      "id": 3,
+      "titulo": "Harry Potter e a Pedra Filosofal",
+      "subtitulo": "",
+      "isbn": "9788532511015",
+      "autor": "J. K. Rowling",
+      "editora": "Rocco",
+      "anoPublicacao": 1997,
+      "generoPrincipal": "Fantasia",
+      "generosExtras": [
+         "Aventura",
+         "Magia",
+         "Infanto-juvenil"
+      ],
+      "sinopseCompleta": "Harry Potter descobre, aos onze anos, que é um bruxo e recebe um convite para estudar na Escola de Magia e Bruxaria de Hogwarts. Em um ambiente repleto de feitiços, criaturas mágicas e amizades inesquecíveis, ele passa a conhecer melhor seu passado e o legado deixado por seus pais. Enquanto aprende magia, Harry se envolve em um mistério relacionado a um objeto extremamente valioso escondido dentro da escola.",
+      "sinopseCurta": "Um garoto descobre que é bruxo e inicia sua vida em uma escola de magia repleta de mistérios.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Infanto-juvenil"
+   },
+   {
+      "id": 4,
+      "titulo": "Percy Jackson e os Olimpianos",
+      "subtitulo": "O Ladrão de Raios",
+      "isbn": "9788598078392",
+      "autor": "Rick Riordan",
+      "editora": "Intrínseca",
+      "anoPublicacao": 2005,
+      "generoPrincipal": "Fantasia",
+      "generosExtras": [
+         "Mitologia",
+         "Aventura",
+         "Ação"
+      ],
+      "sinopseCompleta": "Percy Jackson sempre teve dificuldades para se encaixar na escola e entender acontecimentos estranhos ao seu redor. Quando descobre ser filho de um deus da mitologia grega, sua vida muda completamente. Levado ao Acampamento Meio-Sangue, ele embarca em uma missão para impedir uma guerra entre os deuses do Olimpo enquanto enfrenta monstros, profecias e desafios que revelam seu verdadeiro potencial.",
+      "sinopseCurta": "Após descobrir ser filho de um deus grego, Percy precisa cumprir uma perigosa missão para salvar o Olimpo.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Infanto-juvenil"
+   },
+   {
+      "id": 5,
+      "titulo": "Jogos Vorazes",
+      "subtitulo": "",
+      "isbn": "9788579800240",
+      "autor": "Suzanne Collins",
+      "editora": "Rocco",
+      "anoPublicacao": 2008,
+      "generoPrincipal": "Distopia",
+      "generosExtras": [
+         "Ação",
+         "Aventura",
+         "Ficção Científica"
+      ],
+      "sinopseCompleta": "Em um futuro onde uma nação é dividida em distritos controlados por uma capital autoritária, Katniss Everdeen se voluntaria para participar dos Jogos Vorazes no lugar da irmã. A competição televisionada reúne jovens obrigados a lutar pela sobrevivência diante de milhões de espectadores. Ao longo da disputa, Katniss desafia as regras e se torna símbolo de esperança para uma população oprimida.",
+      "sinopseCurta": "Uma jovem enfrenta uma competição mortal promovida por um governo autoritário.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Jovem Adulto"
+   },
+   {
+      "id": 6,
+      "titulo": "1984",
+      "subtitulo": "",
+      "isbn": "9788535914844",
+      "autor": "George Orwell",
+      "editora": "Companhia das Letras",
+      "anoPublicacao": 1949,
+      "generoPrincipal": "Distopia",
+      "generosExtras": [
+         "Ficção Científica",
+         "Política",
+         "Clássico"
+      ],
+      "sinopseCompleta": "Winston Smith vive em uma sociedade controlada por um regime totalitário que vigia todos os aspectos da vida dos cidadãos. Trabalhando para o governo, ele começa a questionar as verdades impostas pelo Partido e busca compreender se ainda existe espaço para liberdade individual. A narrativa explora vigilância, manipulação da informação, poder e resistência.",
+      "sinopseCurta": "Em um regime que controla todos os aspectos da vida, um homem começa a desafiar o sistema.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Adulto"
+   },
+   {
+      "id": 7,
+      "titulo": "A Revolução dos Bichos",
+      "subtitulo": "",
+      "isbn": "9788535909550",
+      "autor": "George Orwell",
+      "editora": "Companhia das Letras",
+      "anoPublicacao": 1945,
+      "generoPrincipal": "Histórico",
+      "generosExtras": [
+         "Sátira",
+         "Política",
+         "Clássico"
+      ],
+      "sinopseCompleta": "Cansados da exploração humana, os animais de uma fazenda organizam uma revolução para construir uma sociedade mais justa. Com o passar do tempo, porém, novas disputas de poder surgem e antigos ideais começam a ser distorcidos. Utilizando personagens animais, a obra apresenta uma crítica aos regimes autoritários e aos abusos do poder político.",
+      "sinopseCurta": "Animais assumem o controle de uma fazenda, mas logo descobrem que o poder pode corromper qualquer sociedade.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Jovem Adulto"
+   },
+   {
+      "id": 8,
+      "titulo": "Duna",
+      "subtitulo": "",
+      "isbn": "9788576573130",
+      "autor": "Frank Herbert",
+      "editora": "Aleph",
+      "anoPublicacao": 1965,
+      "generoPrincipal": "Ficção Científica",
+      "generosExtras": [
+         "Aventura",
+         "Política",
+         "Épico"
+      ],
+      "sinopseCompleta": "Paul Atreides acompanha sua família ao planeta desértico Arrakis, responsável pela produção da especiaria mais valiosa do universo. Em meio a disputas políticas, traições e interesses econômicos, Paul enfrenta acontecimentos que transformarão sua visão sobre destino, liderança e sobrevivência. A obra combina elementos de ficção científica, filosofia, ecologia e religião.",
+      "sinopseCurta": "O herdeiro de uma poderosa família enfrenta conflitos políticos em um planeta essencial para o futuro da humanidade.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Adulto"
+   },
+   {
+      "id": 9,
+      "titulo": "Fundação",
+      "subtitulo": "",
+      "isbn": "9788576570054",
+      "autor": "Isaac Asimov",
+      "editora": "Aleph",
+      "anoPublicacao": 1951,
+      "generoPrincipal": "Ficção Científica",
+      "generosExtras": [
+         "Política",
+         "Espacial",
+         "Clássico"
+      ],
+      "sinopseCompleta": "O matemático Hari Seldon desenvolve uma ciência capaz de prever o comportamento de grandes populações e identifica a queda inevitável do Império Galáctico. Para reduzir milhares de anos de caos, ele cria a Fundação, uma instituição destinada a preservar o conhecimento humano. A obra acompanha diferentes gerações enfrentando desafios políticos, militares e científicos.",
+      "sinopseCurta": "Uma organização é criada para preservar a civilização diante da queda de um império galáctico.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Adulto"
+   },
+   {
+      "id": 10,
+      "titulo": "Coraline",
+      "subtitulo": "",
+      "isbn": "9788551006752",
+      "autor": "Neil Gaiman",
+      "editora": "Intrínseca",
+      "anoPublicacao": 2002,
+      "generoPrincipal": "Fantasia",
+      "generosExtras": [
+         "Terror/Horror",
+         "Mistério",
+         "Infanto-juvenil"
+      ],
+      "sinopseCompleta": "Ao explorar sua nova casa, Coraline encontra uma porta secreta que conduz a uma versão aparentemente perfeita de sua vida. No entanto, por trás da aparência acolhedora existe um mundo inquietante, onde escolhas e ilusões escondem perigos inesperados. A protagonista precisa reunir coragem e inteligência para proteger aquilo que realmente importa.",
+      "sinopseCurta": "Uma garota encontra um mundo paralelo fascinante, mas descobre que nem tudo é o que parece.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Infanto-juvenil"
+   },
+   {
+      "id": 11,
+      "titulo": "O Nome do Vento",
+      "subtitulo": "A Crônica do Matador do Rei – Primeiro Dia",
+      "isbn": "9788599296498",
+      "autor": "Patrick Rothfuss",
+      "editora": "Arqueiro",
+      "anoPublicacao": 2007,
+      "generoPrincipal": "Fantasia",
+      "generosExtras": [
+         "Aventura",
+         "Alta Fantasia",
+         "Drama"
+      ],
+      "sinopseCompleta": "Em uma pequena estalagem, um homem aparentemente comum revela ser Kvothe, figura lendária cuja fama atravessa gerações. Ao narrar sua própria história, ele conta sobre uma infância marcada por tragédias, sua extraordinária inteligência, a vida como artista itinerante, seus estudos em uma renomada universidade de magia e as escolhas que moldaram sua reputação. A narrativa mistura aventura, mistério e fantasia em um universo rico e detalhado.",
+      "sinopseCurta": "Um homem conhecido como uma lenda decide contar a verdadeira história de sua vida.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Adulto"
+   },
+   {
+      "id": 12,
+      "titulo": "A Menina que Roubava Livros",
+      "subtitulo": "",
+      "isbn": "9788598078170",
+      "autor": "Markus Zusak",
+      "editora": "Intrínseca",
+      "anoPublicacao": 2005,
+      "generoPrincipal": "Histórico",
+      "generosExtras": [
+         "Drama",
+         "Guerra",
+         "Clássico"
+      ],
+      "sinopseCompleta": "Narrada por uma perspectiva incomum, a obra acompanha Liesel Meminger durante a Segunda Guerra Mundial. Vivendo com uma família adotiva na Alemanha, ela encontra nos livros um refúgio diante das dificuldades impostas pelo conflito. Enquanto desenvolve amizades e presencia os efeitos da guerra sobre as pessoas ao seu redor, Liesel aprende sobre coragem, empatia e o poder das palavras.",
+      "sinopseCurta": "Durante a Segunda Guerra Mundial, uma garota encontra nos livros uma forma de enfrentar a realidade.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Jovem Adulto"
+   },
+   {
+      "id": 13,
+      "titulo": "Sherlock Holmes",
+      "subtitulo": "Um Estudo em Vermelho",
+      "isbn": "9788537815835",
+      "autor": "Arthur Conan Doyle",
+      "editora": "Zahar",
+      "anoPublicacao": 1887,
+      "generoPrincipal": "Policial",
+      "generosExtras": [
+         "Mistério",
+         "Suspense",
+         "Clássico"
+      ],
+      "sinopseCompleta": "O médico John Watson conhece Sherlock Holmes, um investigador dotado de extraordinária capacidade de observação e raciocínio lógico. Juntos, eles se envolvem em um intrigante caso de assassinato aparentemente sem explicação. A investigação marca o início de uma das duplas mais famosas da literatura e apresenta o método dedutivo que tornou Holmes um ícone do gênero policial.",
+      "sinopseCurta": "O detetive Sherlock Holmes investiga um misterioso assassinato utilizando lógica e observação.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Jovem Adulto"
+   },
+   {
+      "id": 14,
+      "titulo": "Assassinato no Expresso do Oriente",
+      "subtitulo": "",
+      "isbn": "9788525433683",
+      "autor": "Agatha Christie",
+      "editora": "L&PM",
+      "anoPublicacao": 1934,
+      "generoPrincipal": "Mistério",
+      "generosExtras": [
+         "Policial",
+         "Suspense",
+         "Clássico"
+      ],
+      "sinopseCompleta": "Durante uma viagem de trem pela Europa, um passageiro é encontrado morto em circunstâncias misteriosas. Preso pela neve, o luxuoso Expresso do Oriente torna-se o cenário perfeito para que Hercule Poirot conduza uma investigação detalhada. Cada ocupante do trem parece esconder algum segredo, tornando a solução do caso um verdadeiro desafio para o famoso detetive.",
+      "sinopseCurta": "Um assassinato em um trem de luxo desafia as habilidades investigativas de Hercule Poirot.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Adulto"
+   },
+   {
+      "id": 15,
+      "titulo": "It",
+      "subtitulo": "A Coisa",
+      "isbn": "9788556510360",
+      "autor": "Stephen King",
+      "editora": "Suma",
+      "anoPublicacao": 1986,
+      "generoPrincipal": "Terror/Horror",
+      "generosExtras": [
+         "Suspense",
+         "Mistério",
+         "Drama"
+      ],
+      "sinopseCompleta": "Na pequena cidade de Derry, um grupo de crianças passa a enfrentar uma entidade capaz de assumir diferentes formas e explorar seus maiores medos. Décadas depois, já adultos, eles retornam à cidade para cumprir uma promessa feita na infância. A obra alterna passado e presente, explorando amizade, trauma, coragem e a luta contra o desconhecido.",
+      "sinopseCurta": "Amigos enfrentam uma entidade sobrenatural que desperta os maiores medos de suas vítimas.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Adulto"
+   },
+   {
+      "id": 16,
+      "titulo": "O Iluminado",
+      "subtitulo": "",
+      "isbn": "9788556510452",
+      "autor": "Stephen King",
+      "editora": "Suma",
+      "anoPublicacao": 1977,
+      "generoPrincipal": "Terror/Horror",
+      "generosExtras": [
+         "Suspense",
+         "Drama Psicológico",
+         "Mistério"
+      ],
+      "sinopseCompleta": "Jack Torrance aceita trabalhar como zelador de um hotel isolado durante o inverno, levando consigo sua esposa e seu filho. À medida que o isolamento aumenta, acontecimentos estranhos passam a afetar a família. O hotel parece guardar segredos sombrios, enquanto tensões emocionais e psicológicas transformam a convivência em um desafio crescente.",
+      "sinopseCurta": "Uma família passa o inverno em um hotel isolado onde estranhos acontecimentos começam a ocorrer.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Adulto"
+   },
+   {
+      "id": 17,
+      "titulo": "Orgulho e Preconceito",
+      "subtitulo": "",
+      "isbn": "9788537810571",
+      "autor": "Jane Austen",
+      "editora": "Zahar",
+      "anoPublicacao": 1813,
+      "generoPrincipal": "Romance",
+      "generosExtras": [
+         "Drama",
+         "Clássico",
+         "Histórico"
+      ],
+      "sinopseCompleta": "Elizabeth Bennet vive em uma sociedade onde casamento, posição social e reputação exercem grande influência sobre a vida das pessoas. Ao conhecer o reservado Sr. Darcy, ambos precisam confrontar suas primeiras impressões, preconceitos e expectativas. A obra aborda relações humanas, amadurecimento e crítica aos costumes da Inglaterra do século XIX.",
+      "sinopseCurta": "Uma jovem precisa superar preconceitos para compreender melhor as pessoas ao seu redor.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Jovem Adulto"
+   },
+   {
+      "id": 18,
+      "titulo": "Dom Casmurro",
+      "subtitulo": "",
+      "isbn": "9788535902773",
+      "autor": "Machado de Assis",
+      "editora": "Companhia das Letras",
+      "anoPublicacao": 1899,
+      "generoPrincipal": "Clássico",
+      "generosExtras": [
+         "Drama",
+         "Romance",
+         "Literatura Brasileira"
+      ],
+      "sinopseCompleta": "Bentinho decide escrever suas memórias para reconstruir episódios marcantes de sua juventude, especialmente sua relação com Capitu. Ao revisitar acontecimentos do passado, suas lembranças revelam emoções, dúvidas e interpretações pessoais que tornam a narrativa uma das mais discutidas da literatura brasileira. A obra convida o leitor a refletir sobre memória, ciúme e confiabilidade do narrador.",
+      "sinopseCurta": "Um homem revisita sua juventude e relembra um relacionamento que marcou sua vida.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Adulto"
+   },
+   {
+      "id": 19,
+      "titulo": "O Código Da Vinci",
+      "subtitulo": "",
+      "isbn": "9788575421135",
+      "autor": "Dan Brown",
+      "editora": "Arqueiro",
+      "anoPublicacao": 2003,
+      "generoPrincipal": "Suspense",
+      "generosExtras": [
+         "Mistério",
+         "Thriller",
+         "Histórico"
+      ],
+      "sinopseCompleta": "Após um assassinato ocorrido no Museu do Louvre, o professor Robert Langdon é envolvido em uma investigação repleta de enigmas, códigos e referências históricas. Ao lado da criptóloga Sophie Neveu, ele percorre diferentes locais da Europa em busca de respostas que desafiam interpretações tradicionais sobre acontecimentos históricos e religiosos.",
+      "sinopseCurta": "Um professor de simbologia desvenda uma sequência de enigmas ligados à história e à arte.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Adulto"
+   },
+   {
+      "id": 20,
+      "titulo": "O Pequeno Príncipe",
+      "subtitulo": "",
+      "isbn": "9788595081517",
+      "autor": "Antoine de Saint-Exupéry",
+      "editora": "HarperCollins Brasil",
+      "anoPublicacao": 1943,
+      "generoPrincipal": "Fantasia",
+      "generosExtras": [
+         "Fábula",
+         "Clássico",
+         "Filosofia"
+      ],
+      "sinopseCompleta": "Após um acidente no deserto, um piloto conhece um misterioso menino vindo de um pequeno planeta. Durante suas conversas, o garoto compartilha experiências vividas em diferentes mundos e encontros com personagens curiosos, levando o leitor a refletir sobre amizade, responsabilidade, amor e a forma como adultos e crianças enxergam a vida.",
+      "sinopseCurta": "Um piloto conhece um garoto vindo de outro planeta e aprende importantes lições sobre a vida.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Atende todas as idades"
+   },
+   {
+      "id": 21,
+      "titulo": "Maus",
+      "subtitulo": "A História de um Sobrevivente",
+      "isbn": "9788535925475",
+      "autor": "Art Spiegelman",
+      "editora": "Companhia das Letras",
+      "anoPublicacao": 1986,
+      "generoPrincipal": "Histórico",
+      "generosExtras": [
+         "Quadrinhos",
+         "Biografia",
+         "Drama"
+      ],
+      "sinopseCompleta": "Art Spiegelman entrevista seu pai, Vladek, sobrevivente do Holocausto, reconstruindo sua trajetória desde a juventude na Polônia até os horrores dos campos de concentração nazistas. A narrativa alterna passado e presente, explorando também a difícil relação entre pai e filho. Os personagens são representados como animais antropomórficos, recurso que tornou a obra um marco na história dos quadrinhos e da literatura contemporânea.",
+      "sinopseCurta": "Um sobrevivente do Holocausto relata sua história ao filho em uma das graphic novels mais premiadas do mundo.",
+      "quadrinho": "Sim",
+      "bestSeller": true,
+      "faixaEtaria": "Adulto"
+   },
+   {
+      "id": 22,
+      "titulo": "Watchmen",
+      "subtitulo": "",
+      "isbn": "9788573515492",
+      "autor": "Alan Moore",
+      "editora": "Panini",
+      "anoPublicacao": 1986,
+      "generoPrincipal": "Ação",
+      "generosExtras": [
+         "Quadrinhos",
+         "Suspense",
+         "Super-heróis"
+      ],
+      "sinopseCompleta": "Em uma realidade alternativa onde heróis mascarados fizeram parte da história dos Estados Unidos, a morte de um antigo vigilante leva outros personagens a investigarem uma conspiração de grandes proporções. A obra questiona moralidade, poder, política e justiça, desconstruindo o conceito tradicional de super-heróis.",
+      "sinopseCurta": "O assassinato de um vigilante leva antigos heróis a investigar uma conspiração que pode mudar o mundo.",
+      "quadrinho": "Sim",
+      "bestSeller": true,
+      "faixaEtaria": "Adulto"
+   },
+   {
+      "id": 23,
+      "titulo": "Sandman",
+      "subtitulo": "Prelúdios e Noturnos",
+      "isbn": "9788542604080",
+      "autor": "Neil Gaiman",
+      "editora": "Panini",
+      "anoPublicacao": 1989,
+      "generoPrincipal": "Fantasia",
+      "generosExtras": [
+         "Quadrinhos",
+         "Terror/Horror",
+         "Mitologia"
+      ],
+      "sinopseCompleta": "Após décadas aprisionado, Sonho, uma entidade responsável pelo reino dos sonhos, retorna para reconstruir seu domínio e recuperar os objetos de poder que perdeu. Em sua jornada, ele encontra criaturas mitológicas, seres sobrenaturais e personagens do universo da DC, enquanto busca restaurar o equilíbrio entre os mundos.",
+      "sinopseCurta": "O senhor dos sonhos tenta reconstruir seu reino após décadas de aprisionamento.",
+      "quadrinho": "Sim",
+      "bestSeller": true,
+      "faixaEtaria": "Adulto"
+   },
+   {
+      "id": 24,
+      "titulo": "Heartstopper",
+      "subtitulo": "Volume 1",
+      "isbn": "9788555340555",
+      "autor": "Alice Oseman",
+      "editora": "Seguinte",
+      "anoPublicacao": 2018,
+      "generoPrincipal": "LGBTQIAP+",
+      "generosExtras": [
+         "Quadrinhos",
+         "Romance",
+         "Drama"
+      ],
+      "sinopseCompleta": "Charlie Spring conhece Nick Nelson na escola e os dois rapidamente desenvolvem uma amizade inesperada. Conforme passam mais tempo juntos, sentimentos começam a surgir, levando ambos a descobrir mais sobre si mesmos, seus relacionamentos e a importância do apoio de amigos e familiares.",
+      "sinopseCurta": "Dois estudantes desenvolvem uma amizade que transforma suas vidas e suas formas de enxergar o amor.",
+      "quadrinho": "Sim",
+      "bestSeller": true,
+      "faixaEtaria": "Jovem Adulto"
+   },
+   {
+      "id": 25,
+      "titulo": "Vinland Saga",
+      "subtitulo": "Volume 1",
+      "isbn": "9788545701502",
+      "autor": "Makoto Yukimura",
+      "editora": "Panini",
+      "anoPublicacao": 2005,
+      "generoPrincipal": "Histórico",
+      "generosExtras": [
+         "Mangá",
+         "Ação",
+         "Aventura"
+      ],
+      "sinopseCompleta": "Inspirada em acontecimentos históricos da Era Viking, a obra acompanha Thorfinn, um jovem guerreiro consumido pelo desejo de vingança. Em meio a batalhas, disputas políticas e expedições marítimas, ele amadurece e passa a questionar o verdadeiro significado de força, honra e liberdade.",
+      "sinopseCurta": "Um jovem viking busca vingança enquanto cresce em um mundo marcado por guerras e conquistas.",
+      "quadrinho": "Sim, quadrinho oriental",
+      "bestSeller": true,
+      "faixaEtaria": "Adulto"
+   },
+   {
+      "id": 26,
+      "titulo": "Berserk",
+      "subtitulo": "Volume 1",
+      "isbn": "9788542624460",
+      "autor": "Kentaro Miura",
+      "editora": "Panini",
+      "anoPublicacao": 1989,
+      "generoPrincipal": "Dark Romance",
+      "generosExtras": [
+         "Mangá",
+         "Fantasia",
+         "Terror/Horror",
+         "Ação"
+      ],
+      "sinopseCompleta": "Guts é um mercenário que percorre um mundo sombrio repleto de guerras, monstros e forças sobrenaturais. Carregando uma espada gigantesca e um passado traumático, ele enfrenta inimigos humanos e criaturas demoníacas enquanto tenta sobreviver e compreender seu próprio destino.",
+      "sinopseCurta": "Um guerreiro solitário enfrenta monstros e humanos em um universo medieval extremamente sombrio.",
+      "quadrinho": "Sim, quadrinho oriental",
+      "bestSeller": true,
+      "faixaEtaria": "Adulto"
+   },
+   {
+      "id": 27,
+      "titulo": "One Piece",
+      "subtitulo": "Volume 1",
+      "isbn": "9788573516970",
+      "autor": "Eiichiro Oda",
+      "editora": "Panini",
+      "anoPublicacao": 1997,
+      "generoPrincipal": "Aventura",
+      "generosExtras": [
+         "Mangá",
+         "Ação",
+         "Fantasia",
+         "Comédia"
+      ],
+      "sinopseCompleta": "Monkey D. Luffy sonha em se tornar o Rei dos Piratas. Após adquirir poderes extraordinários ao comer uma fruta misteriosa, ele parte pelos mares reunindo companheiros únicos para encontrar o lendário tesouro conhecido como One Piece. A jornada é marcada por amizades, batalhas e exploração de um vasto mundo.",
+      "sinopseCurta": "Um jovem pirata reúne uma tripulação para encontrar o maior tesouro do mundo.",
+      "quadrinho": "Sim, quadrinho oriental",
+      "bestSeller": true,
+      "faixaEtaria": "Infanto-juvenil"
+   },
+   {
+      "id": 28,
+      "titulo": "Fullmetal Alchemist",
+      "subtitulo": "Volume 1",
+      "isbn": "9788542613112",
+      "autor": "Hiromu Arakawa",
+      "editora": "JBC",
+      "anoPublicacao": 2001,
+      "generoPrincipal": "Fantasia",
+      "generosExtras": [
+         "Mangá",
+         "Aventura",
+         "Ação",
+         "Ficção Científica"
+      ],
+      "sinopseCompleta": "Após uma tentativa proibida de alquimia resultar em consequências devastadoras, os irmãos Edward e Alphonse Elric iniciam uma jornada em busca de um artefato lendário capaz de restaurar seus corpos. Durante a viagem, enfrentam conflitos políticos, organizações misteriosas e dilemas éticos relacionados ao uso da alquimia.",
+      "sinopseCurta": "Dois irmãos percorrem o país em busca de uma forma de recuperar aquilo que perderam.",
+      "quadrinho": "Sim, quadrinho oriental",
+      "bestSeller": true,
+      "faixaEtaria": "Jovem Adulto"
+   },
+   {
+      "id": 29,
+      "titulo": "Sapiens",
+      "subtitulo": "Uma Breve História da Humanidade",
+      "isbn": "9788535928193",
+      "autor": "Yuval Noah Harari",
+      "editora": "Companhia das Letras",
+      "anoPublicacao": 2011,
+      "generoPrincipal": "Histórico",
+      "generosExtras": [
+         "Ciências Humanas",
+         "Antropologia",
+         "Divulgação Científica"
+      ],
+      "sinopseCompleta": "Yuval Noah Harari apresenta uma visão abrangente da trajetória da humanidade desde o surgimento do Homo sapiens até a sociedade contemporânea. O livro aborda revoluções cognitivas, agrícolas, científicas e industriais, discutindo como crenças, instituições e tecnologias moldaram a civilização ao longo dos milênios.",
+      "sinopseCurta": "Uma análise da evolução da humanidade e dos acontecimentos que transformaram nossa sociedade.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Adulto"
+   },
+   {
+      "id": 30,
+      "titulo": "Admirável Mundo Novo",
+      "subtitulo": "",
+      "isbn": "9788525056004",
+      "autor": "Aldous Huxley",
+      "editora": "Biblioteca Azul",
+      "anoPublicacao": 1932,
+      "generoPrincipal": "Distopia",
+      "generosExtras": [
+         "Ficção Científica",
+         "Clássico",
+         "Política"
+      ],
+      "sinopseCompleta": "Em uma sociedade onde as pessoas são geneticamente condicionadas desde o nascimento e a estabilidade social é mantida por meio de controle tecnológico e consumo constante, questionamentos sobre liberdade, individualidade e felicidade começam a surgir. A obra propõe reflexões sobre os limites entre progresso científico e controle social.",
+      "sinopseCurta": "Uma sociedade aparentemente perfeita revela o custo da estabilidade absoluta e do controle sobre os indivíduos.",
+      "quadrinho": false,
+      "bestSeller": true,
+      "faixaEtaria": "Adulto"
+   }
+]
