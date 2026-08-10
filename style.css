@@ -24,6 +24,12 @@
 
     --font-title: "Cormorant", serif;
     --font-text: "Inter", sans-serif;
+
+    --title-size: 3.2rem;
+}
+
+.container{
+    padding: var(--spacing-md);
 }
 
 body{
@@ -54,10 +60,12 @@ header{
 header .logo, .apresentaLivro-header > .titulo{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
-.main-info{
-    padding: var(--spacing-md);
+header img{
+    width: 56px;
+    margin-right: var(--spacing);
 }
 
 button{
@@ -69,8 +77,12 @@ button{
 
 ul, li, a{
     display: flex;
-    gap: var(--spacing);
+    flex-direction: column;
     text-decoration: none;
+}
+
+header ul, header li{
+    text-align: right;
 }
 
 footer{
@@ -78,6 +90,11 @@ footer{
     position: fixed;
     bottom: 0;
     background-color: var(--bg-card);
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
 }
 
 .btn{
@@ -88,6 +105,10 @@ footer{
 .btn-principal{
     background-color: var(--primary);
     color: var(--bg);
+}
+
+.sinopse{
+    margin-bottom: var(--spacing-md);
 }
 
 .apresentaLivro{
