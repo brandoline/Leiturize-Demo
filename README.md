@@ -1,7 +1,9 @@
 # Demo Leiturize - Em andamento
 
+<a href="https://brandoline.github.io/Leiturize-Demo/">Acesse o site por aqui!</a>
+
 ## Necessidade
-A ideia de criar o leiturize veio de uma experiência antiga, a qual era desejado um site que indicasse livros aos leitores dos mais diversos gêneros. 
+O leiturize veio de uma experiência antiga, a qual era desejado um site que indicasse livros aos leitores dos mais diversos gêneros. 
 A Demo veio para dar início a essa ideia e posteriormente conseguir auxílio desses leitores através de cadastros de livros.
 
 ## Ideia

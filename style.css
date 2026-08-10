@@ -33,6 +33,10 @@ h1,h2{
     color: var(--primary);
 }
 
+h3{
+    font-weight: 400;
+}
+
 h3,h4,h5,h6,p,a,span,button{
     font-family: "Inter", sans-serif;
     color: var(--primary);
@@ -42,6 +46,11 @@ header{
     display: flex;
     justify-content: space-between;
     padding: var(--spacing);
+}
+
+header .logo, .apresentaLivro-header > .titulo{
+    display: flex;
+    flex-direction: row;
 }
 
 .main-info{
@@ -62,11 +71,14 @@ ul, li, a{
 }
 
 footer{
+    width: 100;
+    position: fixed;
+    bottom: 0;
     background-color: var(--bg-card);
 }
 
 .btn{
-    background-color: var(--bg);
+    background-color: var(--bg-card);
     color: var(--primary);
 }
 
@@ -91,4 +103,8 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.subtitulo::before{
+    content: ", ";
 }

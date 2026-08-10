@@ -11,8 +11,10 @@
 </head>
 <body>
     <header>
-        <img src="./assets/leiturize-logoSombreada.svg" alt="Logo Leiturize">
-        <h1>Leiturize</h1>
+        <div class="logo">
+            <img src="./assets/leiturize-logoSombreada.svg" alt="Logo Leiturize">
+            <h1>Leiturize</h1>
+        </div>
         <nav>
             <ul>
                 <li><a href="#discover">Descubra</a></li>
@@ -30,12 +32,12 @@
                 <p class="sinopse" id="sinopseCurta"></p>
                 <div class="btns">
                     <button class="btn-principal" onclick="discoverBook()">
-                        <i class="fa-solid fa-magnifying-glass" style="color: #1b1a1a;"></i>
+                        <i class="fa-solid fa-magnifying-glass" style="color: var(--bg);"></i>
                         Descubra o livro
                     </button>
                     <button class="btn" onclick="showBook()">
                         Próxima recomendação
-                        <i class="fa-solid fa-arrow-right" style="color: #1b1a1a;"></i>
+                        <i class="fa-solid fa-arrow-right" style="color: var(--primary);"></i>
                     </button>
                 </div>
             </article>
@@ -50,7 +52,9 @@
                 <span class="divisor"></span>
                 <h4 class="autor" id="autor"></h4>
                 <p class="ano" id="ano"></p>
-                <p class="genero" id="genero"></p>
+                <div class="generos" id="generos">
+                    <p class="genero" id="genero"></p>
+                </div>
                 <p class="classificacao" id="classificacao"></p>
                 <p class="sinopseLonga" id="sinopseLonga"></p>
             </article>
