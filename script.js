@@ -1,9 +1,15 @@
-let nome = document.getElementById("nome");
-let sinopse = document.getElementById("sinopse");
-
+let titulo = document.getElementById("titulo");
+let subtitulo = document.getElementById("subtitulo");
+let autor = document.getElementById("autor");
+let ano = document.getElementById("ano");
+let genero = document.getElementById("genero");
+let classificacao = document.getElementById("classificacao");
+let sinopseCurta = document.getElementById("sinopseCurta");
+let sinopseLonga = document.getElementById("sinopseLonga");
+let apresentaLivro = document.getElementById("apresentaLivro");
 
 async function getBook(){
-    nome.classList.add("hidden");
+    apresentaLivro.classList.add("hidden");
 
     const resposta = await fetch("./data/livros.json")
     const livros = await resposta.json();
@@ -14,8 +20,14 @@ async function getBook(){
     console.log(livros[index]);
 
     let livro = {
-        nome: livros[index].titulo,
+        titulo: livros[index].titulo,
+        subtitulo: livros[index].subtitulo,
+        autor: livros[index].autor,
+        ano: livros[index].anoPublicacao,
+        classificacao: livros[index].faixaEtaria,
+        genero: `${livros[index].generoPrincipal}, ${livros[index].generosExtras}`,
         sinopseCurta: livros[index].sinopseCurta,
+        sinopseLonga: livros[index].sinopseCompleta,
     }
 
     console.log('livro: ' + livro);
@@ -25,12 +37,19 @@ async function getBook(){
 async function showBook(){
     let livro = await getBook();
 
-    sinopse.textContent = livro.sinopseCurta;
-    nome.textContent = livro.nome;
+    titulo.textContent = livro.titulo;
+    subtitulo.textContent = livro.subtitulo;
+    autor.textContent = livro.autor;
+    ano.textContent = livro.ano;
+    genero.textContent = livro.genero;
+    sinopseCurta.textContent = livro.sinopseCurta;
+    sinopseLonga.textContent = livro.sinopseLonga;
+
+    console.log('livro: ' + livro);
 }
 
 function discoverBook(){
-    nome.classList.remove("hidden");
+    apresentaLivro.classList.remove("hidden");
 }
 
 document.addEventListener("DOMContentLoaded", () => {

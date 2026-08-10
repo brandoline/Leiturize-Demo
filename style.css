@@ -8,3 +8,43 @@
     display: none;
     visibility: hidden;
 }
+
+:root{
+
+    --radius: 40px;
+    --spacing: 1rem;
+    --spacing-md: 1.6rem;
+}
+
+body{
+    position: relative;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--spacing);
+}
+
+.main-info{
+    padding: var(--spacing-md);
+}
+
+button{
+    padding: var(--spacing);
+    border-radius: var(--radius);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+ul, li, a{
+    display: flex;
+    gap: var(--spacing);
+    text-decoration: none;
+}
+
+.apresentaLivro{
+    border: 1px solid black;
+    border-radius: var(--radius);
+    padding: var(--spacing);
+}

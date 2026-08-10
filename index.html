@@ -4,21 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Leiturize - Demo | Encontre sua próxima leitura!</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <img src="" alt="">
+        <nav>
+            <ul>
+                <li><a href="#discover">Descubra</a></li>
+                <li><a href="#">Cadastre um livro</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <div>
+        <div class="main-info">
             <h1>Leiturize</h1>
             <h2>Encontre sua próxima leitura!</h2>
         </div>
-
+        <section id="discover"></section>
         <article class="livro">
-            <p class="sinopse" id="sinopse"></p>
-            <h3 class="hidden" id="nome"></h3>
-            <button class="btn-principal" onclick="discoverBook()">Descubra o livro</button>
-            <button class="btn" onclick="showBook()">Próxima recomendação</button>
+            <p class="sinopse" id="sinopseCurta"></p>
+            <div class="btns">
+                <button class="btn-principal" onclick="discoverBook()">Descubra o livro</button>
+                <button class="btn" onclick="showBook()">Próxima recomendação</button>
+            </div>
+        </article>
+        <article class="apresentaLivro hidden" id="apresentaLivro">
+            <div class="apresentaLivro-header">
+                <div class="titulo">
+                    <h3 class="titulo" id="titulo"></h3>
+                    <h4 class="subtitulo" id="subtitulo"></h4>
+                </div>
+                <span>X</span>
+            </div>
+            <span class="divisor"></span>
+            <h5 class="autor" id="autor"></h5>
+            <p class="ano" id="ano"></p>
+            <p class="genero" id="genero"></p>
+            <p class="classificacao" id="classificacao"></p>
+            <p class="sinopseLonga" id="sinopseLonga"></p>
         </article>
     </main>
     <footer>
