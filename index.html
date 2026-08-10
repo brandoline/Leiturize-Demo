@@ -6,10 +6,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Leiturize - Demo | Encontre sua próxima leitura!</title>
+
+    <script src="https://kit.fontawesome.com/68c1bf20ab.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <img src="" alt="">
+        <img src="./assets/leiturize-logoSombreada.svg" alt="Logo Leiturize">
+        <h1>Leiturize</h1>
         <nav>
             <ul>
                 <li><a href="#discover">Descubra</a></li>
@@ -19,32 +22,39 @@
     </header>
     <main>
         <div class="main-info">
-            <h1>Leiturize</h1>
-            <h2>Encontre sua próxima leitura!</h2>
+            <h2>Explore!</h2>
+            <h3>Leia a sinopse, descubra o livro e encontre sua próxima aventura.</h3>
         </div>
-        <section id="discover"></section>
-        <article class="livro">
-            <p class="sinopse" id="sinopseCurta"></p>
-            <div class="btns">
-                <button class="btn-principal" onclick="discoverBook()">Descubra o livro</button>
-                <button class="btn" onclick="showBook()">Próxima recomendação</button>
-            </div>
-        </article>
-        <article class="apresentaLivro hidden" id="apresentaLivro">
-            <div class="apresentaLivro-header">
-                <div class="titulo">
-                    <h3 class="titulo" id="titulo"></h3>
-                    <h4 class="subtitulo" id="subtitulo"></h4>
+        <section id="discover">
+            <article class="livro">
+                <p class="sinopse" id="sinopseCurta"></p>
+                <div class="btns">
+                    <button class="btn-principal" onclick="discoverBook()">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #1b1a1a;"></i>
+                        Descubra o livro
+                    </button>
+                    <button class="btn" onclick="showBook()">
+                        Próxima recomendação
+                        <i class="fa-solid fa-arrow-right" style="color: #1b1a1a;"></i>
+                    </button>
                 </div>
-                <span>X</span>
-            </div>
-            <span class="divisor"></span>
-            <h5 class="autor" id="autor"></h5>
-            <p class="ano" id="ano"></p>
-            <p class="genero" id="genero"></p>
-            <p class="classificacao" id="classificacao"></p>
-            <p class="sinopseLonga" id="sinopseLonga"></p>
-        </article>
+            </article>
+            <article class="apresentaLivro hidden" id="apresentaLivro">
+                <div class="apresentaLivro-header">
+                    <div class="titulo">
+                        <h2 class="titulo" id="titulo"></h2>
+                        <h3 class="subtitulo" id="subtitulo"></h3>
+                    </div>
+                    <i class="fa-solid fa-x" style="color: #1b1a1a;"></i>
+                </div>
+                <span class="divisor"></span>
+                <h4 class="autor" id="autor"></h4>
+                <p class="ano" id="ano"></p>
+                <p class="genero" id="genero"></p>
+                <p class="classificacao" id="classificacao"></p>
+                <p class="sinopseLonga" id="sinopseLonga"></p>
+            </article>
+        </section>
     </main>
     <footer>
         <p>Desenvolvidor por <a href="#">Helen Brandão</a> 2016</p>
