@@ -21,6 +21,9 @@
     --radius: 40px;
     --spacing: 1rem;
     --spacing-md: 1.6rem;
+
+    --font-title: "Cormorant", serif;
+    --font-text: "Inter", sans-serif;
 }
 
 body{
@@ -28,8 +31,8 @@ body{
     background-color: var(--bg);
 }
 
-h1,h2{
-    font-family: "Cormorant", serif;
+h1,h2, h3:has(.subtitulo){
+    font-family: var(--font-title);
     color: var(--primary);
 }
 
@@ -38,7 +41,7 @@ h3{
 }
 
 h3,h4,h5,h6,p,a,span,button{
-    font-family: "Inter", sans-serif;
+    font-family: var(--font-text);
     color: var(--primary);
 }
 
