@@ -61,7 +61,7 @@ main{
 }
 
 section{
-    height: 100dvh;
+    min-height: 100dvh;
 }
 
 h1,h2, h3:has(.subtitulo){
@@ -88,12 +88,17 @@ nav{
     justify-content: space-between;
     background-color: var(--bg-card);
     padding: var(--spacing-md);
+    box-shadow: 2px 2px 14px 1px rgba(27, 26, 26, 0.24);
 }
 
 header .logo, .apresentaLivro-header > .titulo{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.titulo i{
+    cursor: pointer;
 }
 
 header img{
@@ -122,6 +127,7 @@ footer{
     width: 100%;
     background-color: var(--bg-card);
     color: var(--secondary);
+    box-shadow: 2px -2px 14px 1px rgba(27,26,26,0.24);
 }
 
 .footer-navegation{
@@ -184,7 +190,7 @@ footer p{
     align-items: center;
     text-align: justify;
     background-color: var(--bg-card);
-    border: 1px solid var(--primary);
+    border: 2px solid var(--primary);
     border-radius: var(--radius);
     padding: var(--spacing-md);
     margin-bottom: var(--spacing-md);
@@ -227,7 +233,7 @@ footer p{
     }
 
     .container{
-        width: 80%;
+        width: 70%;
         max-width: 1200px;
         margin: 0 auto;   
     }

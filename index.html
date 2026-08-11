@@ -34,7 +34,7 @@
                     <p class="sinopse" id="sinopseCurta">Não sabe o que ler a seguir? Clique em <italic>“Próxima recomendação”</italic> e descubra uma nova história. Uma sinopse será revelada para você conhecer um pouco mais sobre o livro e decidir se essa pode ser a sua próxima leitura.</p>
                 </div>
                 <div class="btns">
-                    <button class="btn-principal" onclick="discoverBook()">
+                    <button class="btn-principal hidden" onclick="discoverBook()" id="discoverBook">
                         <i class="fa-solid fa-magnifying-glass" style="color: var(--bg);"></i>
                         Descubra o livro
                     </button>
@@ -49,7 +49,7 @@
                     <div class="titulo">
                         <h2 class="titulo" id="titulo"></h2>
                     </div>
-                    <i class="fa-solid fa-x" style="color: #1b1a1a;"></i>
+                    <i class="fa-solid fa-x" style="color: var(--primary);" id="fechar"></i>
                 </div>
                 <span class="divisor"></span>
                 <h4 class="autor" id="autor"></h4>

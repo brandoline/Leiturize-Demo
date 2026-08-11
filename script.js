@@ -7,8 +7,11 @@ let sinopseLonga = document.getElementById("sinopseLonga");
 let apresentaLivro = document.getElementById("apresentaLivro");
 let generoP = document.getElementById("generoPrincipal");
 let generos = document.getElementById("generos");
+let btnDiscover = document.getElementById("discoverBook");
+let fecharLivro = document.getElementById("fechar");
 
 async function getBook(){
+    btnDiscover.classList.remove("hidden");
     generos.innerHTML = "";
     apresentaLivro.classList.add("hidden");
 
@@ -61,6 +64,10 @@ async function showBook(){
 function discoverBook(){
     apresentaLivro.classList.remove("hidden");
 }
+
+fecharLivro.addEventListener("click", () => {
+    apresentaLivro.classList.add("hidden");
+})
 
 document.addEventListener("DOMContentLoaded", () => {
 })
