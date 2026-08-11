@@ -37,6 +37,10 @@
     padding: var(--spacing-sm);
     border-radius: var(--radius);
     font-size: 0.8rem;
+    transition: all 1.3s ease;
+}
+.genero:hover{
+    transform: scale(1.05);
 }
 
 .container, .main-info, footer{
@@ -154,7 +158,6 @@ h2{
 footer p{
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
     text-align: justify;
     color: var(--secondary);
