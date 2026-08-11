@@ -12,13 +12,13 @@
 }
 
 :root{
-
     --bg: #F9F8F6;
     --primary: #1B1A1A;
     --secondary: #626262;
     --bg-card: #FFFFFF;
 
     --radius: 40px;
+    --spacing-sm: 0.6rem;
     --spacing: 1rem;
     --spacing-md: 1.6rem;
 
@@ -26,15 +26,42 @@
     --font-text: "Inter", sans-serif;
 
     --title-size: 3.2rem;
+    --subtitle-size: 2.2rem;
 }
 
-.container{
+.genero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--primary);
+    padding: var(--spacing-sm);
+    border-radius: var(--radius);
+    font-size: 0.8rem;
+}
+
+.container, .main-info, footer{
+    width: 100%;
     padding: var(--spacing-md);
 }
 
 body{
-    position: relative;
+    display: flex;
     background-color: var(--bg);
+    width: 100%;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    height: 100dvh;
 }
 
 h1,h2, h3:has(.subtitulo){
@@ -53,8 +80,14 @@ h3,h4,h5,h6,p,a,span,button{
 
 header{
     display: flex;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
     justify-content: space-between;
-    padding: var(--spacing);
+    background-color: var(--bg-card);
+    padding: var(--spacing-md);
 }
 
 header .logo, .apresentaLivro-header > .titulo{
@@ -64,8 +97,8 @@ header .logo, .apresentaLivro-header > .titulo{
 }
 
 header img{
-    width: 56px;
-    margin-right: var(--spacing);
+    width: 40px;
+    margin-right: var(--spacing-sm);
 }
 
 button{
@@ -87,14 +120,46 @@ header ul, header li{
 
 footer{
     width: 100%;
-    position: fixed;
-    bottom: 0;
     background-color: var(--bg-card);
+    color: var(--secondary);
+}
+
+.footer-navegation{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+}
+
+footer ul{
+    margin-bottom: var(--spacing);
+}
+
+footer ul li, footer a, footer span, footer h2{
+    color: var(--secondary);
+}
+footer a:hover{
+    color: var(--primary);
+}
+
+h2{
+    font-size: var(--subtitle-size);
+}
+
+footer p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    color: var(--secondary);
 }
 
 .btns{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing);
 }
 
 .btn{
@@ -108,10 +173,11 @@ footer{
 }
 
 .sinopse{
-    margin-bottom: var(--spacing-md);
+    text-align: justify;
 }
 
-.apresentaLivro{
+.card{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,15 +186,49 @@ footer{
     background-color: var(--bg-card);
     border: 1px solid var(--primary);
     border-radius: var(--radius);
-    padding: var(--spacing);
+    padding: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
 }
 
 .apresentaLivro-header{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 var(--spacing);
 }
 
-.subtitulo::before{
-    content: ", ";
+.divisor{
+    width: 100%;
+    height: 1px;
+    background-color: var(--primary);
+    margin: var(--spacing);
+}
+
+.ano{
+    margin-bottom: var(--spacing);
+}
+
+.generos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing);
+    justify-content: center;
+    justify-items: center;
+}
+
+@media (min-width: 640px){
+    .generos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .container{
+        width: 80%;
+        max-width: 1200px;
+        margin: 0 auto;   
+    }
 }

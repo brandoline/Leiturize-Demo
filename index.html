@@ -11,26 +11,29 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="./assets/leiturize-logoSombreada.svg" alt="Logo Leiturize">
-            <h1>Leiturize</h1>
-        </div>
         <nav>
+            <div class="logo">
+                <img src="./assets/leiturize-logoSombreada.svg" alt="Logo Leiturize">
+                <h1>Leiturize</h1>
+            </div>
             <ul>
                 <li><a href="#discover">Descubra</a></li>
                 <li><a href="#">Cadastre um livro</a></li>
             </ul>
         </nav>
-    </header>
-    <main>
+
         <div class="main-info">
             <h2>Explore!</h2>
             <h3>Leia a sinopse, descubra o livro e encontre sua próxima aventura.</h3>
         </div>
+    </header>
+    <main>
         <section id="discover">
             <article class="livro container">
-                <p class="sinopse" id="sinopseCurta"></p>
-                <div class="btns container">
+                <div class="card" style="min-height: 250px;">
+                    <p class="sinopse" id="sinopseCurta">Não sabe o que ler a seguir? Clique em <italic>“Próxima recomendação”</italic> e descubra uma nova história. Uma sinopse será revelada para você conhecer um pouco mais sobre o livro e decidir se essa pode ser a sua próxima leitura.</p>
+                </div>
+                <div class="btns">
                     <button class="btn-principal" onclick="discoverBook()">
                         <i class="fa-solid fa-magnifying-glass" style="color: var(--bg);"></i>
                         Descubra o livro
@@ -41,11 +44,10 @@
                     </button>
                 </div>
             </article>
-            <article class="apresentaLivro hidden" id="apresentaLivro">
+            <article class="card container hidden" id="apresentaLivro">
                 <div class="apresentaLivro-header">
                     <div class="titulo">
                         <h2 class="titulo" id="titulo"></h2>
-                        <h3 class="subtitulo" id="subtitulo"></h3>
                     </div>
                     <i class="fa-solid fa-x" style="color: #1b1a1a;"></i>
                 </div>
@@ -53,31 +55,32 @@
                 <h4 class="autor" id="autor"></h4>
                 <p class="ano" id="ano"></p>
                 <div class="generos" id="generos">
-                    <p class="genero" id="genero"></p>
                 </div>
                 <p class="classificacao" id="classificacao"></p>
-                <p class="sinopseLonga" id="sinopseLonga"></p>
+                <p class="sinopseLonga sinopse" id="sinopseLonga"></p>
             </article>
         </section>
     </main>
-    <footer class="container">
+    <footer>
         <div class="footer-navegation">
             <div class="footer-info">
                 <h2>Leiturize</h2>
                 <p>De sinopse em sinopse, conheça sua próxima aventura.</p>
             </div>
-            <ul>
-                <li>Explore</li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre o Projeto</a></li>
-            </ul>
-            <ul>
-                <li>Contato</li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">HelenCSBrandao@gmail.com</a></li>
-            </ul>
+            <div class="footer-listas">
+                <ul>
+                    <li><strong>Explore</strong></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre o Projeto</a></li>
+                </ul>
+                <ul>
+                    <li><strong>Contato</strong></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">HelenCSBrandao@gmail.com</a></li>
+                </ul>
+            </div>
         </div>
-        <p>Desenvolvidor por <a href="#">Helen Brandão</a> 2016</p>
+        <span>Desenvolvidor por <a href="https://www.instagram.com/itsbrandoline">Helen Brandão</a> 2016</span>
     </footer>
     <script src="script.js"></script>
 </body>

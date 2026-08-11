@@ -1,14 +1,14 @@
 let titulo = document.getElementById("titulo");
-let subtitulo = document.getElementById("subtitulo");
 let autor = document.getElementById("autor");
 let ano = document.getElementById("ano");
-let genero = document.getElementById("genero");
 let classificacao = document.getElementById("classificacao");
 let sinopseCurta = document.getElementById("sinopseCurta");
 let sinopseLonga = document.getElementById("sinopseLonga");
 let apresentaLivro = document.getElementById("apresentaLivro");
+let generos = document.getElementById("generos");
 
 async function getBook(){
+    generos.innerHTML = "";
     apresentaLivro.classList.add("hidden");
 
     const resposta = await fetch("./data/livros.json")
@@ -20,12 +20,12 @@ async function getBook(){
     console.log(livros[index]);
 
     let livro = {
-        titulo: livros[index].titulo,
-        subtitulo: livros[index].subtitulo,
+        titulo: (livros[index].subtitulo !== '') ? `${livros[index].titulo}, ${livros[index].subtitulo}` : livros[index].titulo,        
         autor: livros[index].autor,
         ano: livros[index].anoPublicacao,
         classificacao: livros[index].faixaEtaria,
-        genero: `${livros[index].generoPrincipal}, ${livros[index].generosExtras}`,
+        generoPrincipal: livros[index].generoPrincipal,
+        generoSecundario: livros[index].generosExtras,
         sinopseCurta: livros[index].sinopseCurta,
         sinopseLonga: livros[index].sinopseCompleta,
     }
@@ -38,12 +38,19 @@ async function showBook(){
     let livro = await getBook();
 
     titulo.textContent = livro.titulo;
-    subtitulo.textContent = livro.subtitulo;
     autor.textContent = livro.autor;
     ano.textContent = livro.ano;
-    genero.textContent = livro.genero;
     sinopseCurta.textContent = livro.sinopseCurta;
     sinopseLonga.textContent = livro.sinopseLonga;
+
+   generoPrincipal.classList.add("genero");
+    generos.appendChild(generoPrincipal);
+    livro.generoSecundario.forEach(g => {
+        genero = document.createElement("p")
+        genero.textContent = g;
+        genero.classList.add("genero");
+        generos.appendChild(genero);
+    });
 
     console.log('livro: ' + livro);
 }
