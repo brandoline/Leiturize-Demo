@@ -5,6 +5,7 @@ let classificacao = document.getElementById("classificacao");
 let sinopseCurta = document.getElementById("sinopseCurta");
 let sinopseLonga = document.getElementById("sinopseLonga");
 let apresentaLivro = document.getElementById("apresentaLivro");
+let generoP = document.getElementById("generoPrincipal");
 let generos = document.getElementById("generos");
 
 async function getBook(){
@@ -36,17 +37,19 @@ async function getBook(){
 
 async function showBook(){
     let livro = await getBook();
+    
 
     titulo.textContent = livro.titulo;
     autor.textContent = livro.autor;
     ano.textContent = livro.ano;
     sinopseCurta.textContent = livro.sinopseCurta;
     sinopseLonga.textContent = livro.sinopseLonga;
+    generoP.textContent = livro.generoPrincipal;
 
-   generoPrincipal.classList.add("genero");
-    generos.appendChild(generoPrincipal);
+    generoP.classList.add("genero");
+    generos.appendChild(generoP);
     livro.generoSecundario.forEach(g => {
-        genero = document.createElement("p")
+        genero = document.createElement("p");
         genero.textContent = g;
         genero.classList.add("genero");
         generos.appendChild(genero);
