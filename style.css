@@ -170,15 +170,17 @@ footer p{
     align-items: center;
     gap: var(--spacing);
 }
-
 .btn{
     background-color: var(--bg-card);
     color: var(--primary);
 }
-
 .btn-principal{
     background-color: var(--primary);
     color: var(--bg);
+}
+.btn-fechar{
+    border: none;
+    background-color: transparent;
 }
 
 .sinopse{
